@@ -1,0 +1,40 @@
+2021-01-05 21:45:47,751 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-01-05 21:48:03,839 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Shop:SportShoes:0.0.1-SNAPSHOT @ G:\SimpliLearn\Session videos - Phase3\phase3-master\phase3-master\pom.xml.
+2021-01-05 21:48:13,939 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SportShoes/src/main/java
+2021-01-05 21:48:13,940 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SportShoes/src/test/java
+2021-01-05 21:48:14,878 [Worker-4: Importing Maven projects] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure SportShoes
+org.eclipse.m2e.wtp.MarkedException: Unable to configure SportShoes
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:101)
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:70)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:122)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$2(ProjectConfigurationManager.java:511)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:505)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:296)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:146)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:70)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:75)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:79)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:138)
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:97)
+	... 18 common frames omitted
+2021-01-05 21:48:16,528 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 19 sec
+2021-01-05 21:48:22,014 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-05 21:48:22,015 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\SimpliLearn\Session videos - Phase3\phase3-master\phase3-master\src\main\resources
+2021-01-05 21:48:22,019 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
