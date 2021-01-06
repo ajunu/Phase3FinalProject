@@ -38,3 +38,4 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2021-01-05 21:48:22,014 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-01-05 21:48:22,015 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\SimpliLearn\Session videos - Phase3\phase3-master\phase3-master\src\main\resources
 2021-01-05 21:48:22,019 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-05 21:48:22,020 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\SimpliLearn\Session videos - Phase3\phase3-master\phase3-master\src\test\resources
